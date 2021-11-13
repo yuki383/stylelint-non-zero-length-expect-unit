@@ -1,0 +1,27 @@
+{
+  "name": "stylelint-length-not-zero-expect-unit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.(js|json)'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuki383/stylelint-length-not-zero-expect-unit.git"
+  },
+  "author": "yuki383",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuki383/stylelint-length-not-zero-expect-unit/issues"
+  },
+  "homepage": "https://github.com/yuki383/stylelint-length-not-zero-expect-unit#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "prettier": "^2.4.1",
+    "stylelint": "^14.0.1"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.0.0 || ^14.0.0"
+  }
+}
