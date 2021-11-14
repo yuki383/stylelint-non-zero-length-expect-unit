@@ -1,4 +1,15 @@
 # stylelint-length-not-zero-expect-unit
+The rule enforces unit if length is non-zero.
+
+In `styled-components/native >= v5`, you will get a lot of warnings if the style does not have a unit.
+This rule allows you to statically detect where the warning occurs.
+
+```css
+div {
+  height: 100;
+  /* ↑ Unit expected */
+}
+```
 
 ## Installation
 
