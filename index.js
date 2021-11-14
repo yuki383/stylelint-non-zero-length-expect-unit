@@ -1,5 +1,5 @@
 const valueParser = require("postcss-value-parser");
-const createPlugin = require("stylelint");
+const stylelint = require("stylelint");
 const declarationValueIndex = require("stylelint/lib/utils/declarationValueIndex");
 const getDeclarationValue = require("stylelint/lib/utils/getDeclarationValue");
 const report = require("stylelint/lib/utils/report");
@@ -87,6 +87,6 @@ function isZero(number) {
   return Number.parseFloat(number) === 0;
 }
 
-rule.ruleName = ruleName;
-rule.messages = messages;
 module.exports = stylelint.createPlugin(ruleName, rule);
+module.exports.ruleName = ruleName;
+module.exports.messages = messages;
