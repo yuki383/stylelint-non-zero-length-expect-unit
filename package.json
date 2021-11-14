@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write '**/*.(js|json)'"
+    "format": "prettier --write '**/*.(js|json)'",
+		"check-format": "prettier -c '**/*.(js|json)'"
   },
   "repository": {
     "type": "git",
