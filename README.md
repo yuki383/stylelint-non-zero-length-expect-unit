@@ -1,4 +1,4 @@
-# stylelint-length-not-zero-expect-unit
+# stylelint-non-zero-length-expect-unit
 The rule enforces unit if length is non-zero.
 
 In `styled-components/native >= v5`, you will get a lot of warnings if the style does not have a unit.
@@ -14,20 +14,20 @@ div {
 ## Installation
 
 ```
-  npm install --save-dev stylelint stylelint-length-not-zero-expect-unit
+  npm install --save-dev stylelint stylelint-non-zero-length-expect-unit
 ```
 or
 ```
-  yarn add -D stylelint stylelint-length-not-zero-expect-unit
+  yarn add -D stylelint stylelint-non-zero-length-expect-unit
 ```
 
 ## Useage
 
 ```json
 {
-  "plugins": ["stylelint-length-not-zero-expect-unit"],
+  "plugins": ["stylelint-non-zero-length-expect-unit"],
   "rules": {
-    "plugin/stylelint-length-not-zero-expect-unit": true
+    "plugin/stylelint-non-zero-length-expect-unit": true
   }
 }
 ```

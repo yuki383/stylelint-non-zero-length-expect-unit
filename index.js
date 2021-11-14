@@ -6,7 +6,7 @@ const report = require("stylelint/lib/utils/report");
 const ruleMessages = require("stylelint/lib/utils/ruleMessages");
 const validateOptions = require("stylelint/lib/utils/validateOptions");
 
-const ruleName = "plugin/length-not-zero-expect-unit";
+const ruleName = "plugin/non-zero-length-expect-unit";
 
 const messages = ruleMessages(ruleName, {
   rejected: "Unit Expected",
