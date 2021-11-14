@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "format": "prettier --write '**/*.(js|json)'",
     "check-format": "prettier -c '**/*.(js|json)'"
   },
