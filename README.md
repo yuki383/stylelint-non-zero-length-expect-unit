@@ -1,4 +1,6 @@
 # stylelint-non-zero-length-expect-unit
+![ci](https://github.com/yuki383/stylelint-non-zero-length-expect-unit/actions/workflows/test.yml/badge.svg)
+
 The rule enforces unit if length is non-zero.
 
 In `styled-components/native >= v5`, you will get a lot of warnings if the style does not have a unit.
