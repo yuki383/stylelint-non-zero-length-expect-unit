@@ -27,7 +27,7 @@ or
 {
   "plugins": ["stylelint-non-zero-length-expect-unit"],
   "rules": {
-    "plugin/stylelint-non-zero-length-expect-unit": true
+    "plugin/non-zero-length-expect-unit": true
   }
 }
 ```
