@@ -1,3 +1,3 @@
 module.exports = {
-  "preset": "jest-preset-stylelint"
-}
+  preset: "jest-preset-stylelint",
+};

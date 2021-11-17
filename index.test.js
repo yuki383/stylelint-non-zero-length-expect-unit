@@ -27,6 +27,6 @@ testRule({
     {
       code: "div: { height: 10 }",
       message: messages.rejected,
-    }
-  ]
+    },
+  ],
 });
